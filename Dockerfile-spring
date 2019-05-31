@@ -1,0 +1,4 @@
+From tomcat:9.0-jre8-alpine
+COPY . .
+WORKDIR 'target'
+CMD ["java","-jar","SpringBootHelloWorld-0.0.1-SNAPSHOT.jar"]
